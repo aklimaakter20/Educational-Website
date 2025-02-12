@@ -212,3 +212,66 @@
         .rotate {
             transform: rotate(180deg);
         }
+        /* footer */
+        .footer {
+            background-color: #212529;
+            color: white;
+            padding-top: 40px;
+            margin-top: 30px;
+        }
+        .footer p,
+        .footer a{
+            font-size: 12px;
+            color: white;
+        }
+        .signup-btn{
+            font-size: 12px;
+        }
+        .footer input{
+            width: 160px;
+            font-size: 12px;
+        }
+        .footer h5 {
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer ul li {
+            margin-bottom: 8px;
+        }
+        .footer ul li a {
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .footer ul li a:hover {
+            color: #000;
+        }
+        .footer .subscribe-box {
+            display: flex;
+            margin-top: 15px;
+        }
+        .footer .subscribe-box input {
+           
+            padding: 4px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+        }
+        .footer .subscribe-box button {
+            background-color: #E81D6D;
+            color: white;
+            border: none;
+            padding: 5px 5px;
+            border-radius: 0 3px 3px 0;
+            cursor: pointer;
+        }
+        .footer .subscribe-box button:hover {
+            background-color: #C5145A;
+        }
+        .copy-right{
+            padding-bottom: 10px;
+            font-size: 14px;
+        }
