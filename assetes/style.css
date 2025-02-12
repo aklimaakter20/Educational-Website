@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+
+}
+.logo{
+    width: 120px;
+    height: auto;
+   
+}
+.nav-link{
+    font-weight: 500;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color: #ff5733 ;
+    animation-duration: 0.5s;
+    text-underline-offset: 3px;
+}
+.hero-area{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+ .hero-info{
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+} 
+ .hero-btn {
+    color: white;
+    border: 1px solid white;
+    font-size: 12px;
+    background: transparent;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #fff;
+    background-color: #8a0303;
+    transition: 1s;
+} 
+.heading{
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.card {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+
+}
+.card-text{
+    font-size: 14px;
+}
+.card .btn{
+    background: #212529;
+    color: white;
+    font-size: 12px;
+    padding: 8px 20px;
+}
+.card .btn:hover{
+    background-color: #FF0000;
+    transition: 1s ease-in-out;
+    
+}
